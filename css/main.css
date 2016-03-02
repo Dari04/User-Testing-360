@@ -134,7 +134,7 @@ header li{
     font-size: 25px;
 }
 .raya{
-    border-top:1px solid rgba(91,91,91,0.18);
+    border-top:1px solid rgba(148,148,148,0.11);
     width: 100%;
     z-index: 100;
     text-align: center;
@@ -178,7 +178,8 @@ header li{
     background-size: 135% 100%;
 }
 .line{
-    border-bottom:1px solid rgba(91,91,91,0.18);
+    border:1px solid rgba(148,148,148,0.11);
+    margin-top: 92px;
 }
 .paso{
     color: #58A5FF;
@@ -350,10 +351,7 @@ header li{
     #servicios{
         margin-top: 20px;
     }
-    .raya{
-        margin-top: 550px;
 
-    }
     .ejemplo{
         font-size:2.3em;
         margin: 0;
@@ -449,7 +447,7 @@ header li{
     }
     .blue{
         position: relative;
-        bottom: 171px;
+        bottom: 169px;
         width: 100%;
     }
      .prueba ,.prueba2{
