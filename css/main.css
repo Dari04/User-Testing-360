@@ -9,6 +9,9 @@ header{
 nav{
     margin:30px;
 }
+header li{
+    text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+}
 .navbar-default {
     background-color: transparent;
     border: none;
@@ -53,6 +56,7 @@ nav{
 .logo1{
     height: 28px;
     width: 200px;
+    background:rgba(78,78,78,0.10);
 }
 .box{
     margin-top: 250px;
@@ -66,10 +70,7 @@ nav{
     color: #f2f2f2;
     font-family:Arial;
 }
-.without{
-    padding: 0;
-    margin: 0;
-}
+
 .blue{
     background-color: rgba(78,126,184,0.9);
 }
@@ -97,6 +98,7 @@ nav{
 
 .background{
     height:600px;
+    font-family: "Open Sans";
 }
 .move{
     margin-top: 10%;
@@ -129,6 +131,7 @@ nav{
 }
 .services{
     color:#7994AE;
+    font-size: 25px;
 }
 .raya{
     border-top:1px solid rgba(91,91,91,0.18);
@@ -136,9 +139,11 @@ nav{
     z-index: 100;
     text-align: center;
 }
-.white{
-    height: 380px;
+.without{
+    padding: 0;
+    margin: 0;
 }
+
 .separador1{
     position: relative;
     bottom: 55px;
@@ -161,7 +166,8 @@ nav{
 .want{
     border-top:1px solid rgba(91,91,91,0.18);
     width: 100%;
-    height: 700px;
+    height: 650px;
+    font-family: "Open Sans";
 
 }
 .glasses{
@@ -171,6 +177,54 @@ nav{
     background-position:left;
     background-size: 135% 100%;
 }
+.line{
+    border-bottom:1px solid rgba(91,91,91,0.18);
+}
+.paso{
+    color: #58A5FF;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+.want li{
+    line-height: 2.3;
+}
+
+.parrafo{
+    margin-top: 9px;
+}
+.centro{
+    color: white;
+    font-size: 33px;
+}
+.borde{
+    background: #50bdea;
+    border-radius: 50px;
+    padding: 2%;
+    width: 60px;
+    position: relative;
+    left: 500px;
+    bottom: 20px;
+    margin:90px;
+}
+.separador2{
+    position: relative;
+    bottom: 55px;
+}
+.medio{
+    text-align: right;
+    position: relative;
+    left: 59px;
+}
+.blanco{
+    height: 500px;
+    font-family: "Open Sans";
+}
+.blanco li{
+    line-height: 2.3;
+}
+.usar{
+    color: #58A5FF;
+}
 .persona{
     height: 350px;
     width: 570px;
@@ -178,7 +232,7 @@ nav{
 
 .prueba2,.obten2{
     color: white;
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 .blue2{
@@ -186,13 +240,17 @@ nav{
 }
 .blue2{
     padding: 3.7%;
+    height: 170px;
 }
-.btn{
+
+.btn2{
     margin-top: 22px;
     padding: 2%;
+    width: 167px;
     border:white solid 1px;
     border-radius: 5px;
-    font-size: 20px;;
+    font-size: 20px;
+    margin-left: 200px;
 }
 .a-none-decoration{
     color: #FFFFFF;
@@ -201,56 +259,301 @@ nav{
     background-color:#FFFFFF;
     color:rgba(78,126,184,0.9);
 }
-@media only screen and (max-width: 480px) {
-    
-    nav{
-    margin:0;
+.black{
+    background-color: #2A3541;
+    height: 177px;
+}
+.negro{
+    padding-top: 20px;
+    margin:30px;
+}
+.ultimo{
+    color: white;
+    margin-top: 5px;
+}
+.circle{
+    margin-right: 50px;
+}
+.icon-facebook{
+    color:#046EB6;
+    font-size: 35px;
+    float:right;
+    position: relative;
+    bottom: 90px;
+    margin-right: 30px;
+}
+.icon-twitter{
+    color:#046EB6;
+    font-size: 35px;
+    float:right;
+    position: relative;
+    bottom: 90px;
+}
+.copy{
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 35px;
+    left: 105px;
+}
+@media  screen and (min-width:300px) and (max-width: 500px) {
+     nav{
+        margin:0;
     }
     .navbar-default {
-    background:rgba(54, 125, 213, 0.7); 
-    border:grey;
-    font-size: 1.2em;
+        background:rgba(95,95,95,0.87); 
+        border:grey;
+        font-size: 1.2em;
+    }
+     .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: white;
+        background-color:rgba(54, 125, 213, 0.7);
+    }
+    .container ,.container-fluid{
+        width:100%;
+    }
+    .fondo{
+        height: 500px;
+        width:100%;
+    }
+    .opaco{
+        height: 500px;
+        width: 100%;
+    }
+    .titulo{
+       position:relative;
+       bottom: 190px;
+       font-size: 2.4em;
+    }
+    .blue{
+        position: relative;
+        bottom: 168px;
+        width: 100%;
+    }
+     .prueba ,.prueba2{
+        font-size: 1.8em;
+        width: 270px;
+        position: relative;
+        right: 40px;
+    }
+    .obten,.obten2{
+        width: 270px;
+        position: relative;
+        right: 49px;
+        font-size: 1.2em;
+    }
+    .btn{
+        margin-bottom: 20px;
+        margin-left: 4px;
+    }
+
+    #servicios{
+        margin-top: 20px;
+    }
+    .raya{
+        margin-top: 550px;
 
     }
-    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    background-color:rgba(153, 153, 153, 0.56);
+    .ejemplo{
+        font-size:2.3em;
+        margin: 0;
     }
+    .logo2{
+        height: 30px;
+        width: 180px;
+    }
+    img[src="image/flecha.png"]{
+        display: none;
+    }
+    iframe{
+        width: 100%;
+    }
+    .glasses{
+        display: none;
+    }
+    .want li{
+        line-height: 1.8;
+    }
+    .persona{
+        display: none;
+    }
+    .blanco{
+        position: relative;
+        bottom: 70px;
+        height: 450px;
+    }
+   .blanco li{
+        line-height: 1.8;
+   }
+     .blue2{
+        height: 185px;
+        width: 100%;
+    }
+    .prueba2{
+        font-size: 1.8em;
+        width: 270px;
+        position: relative;
+        right: 40px;
+    }
+     .btn2{
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+    .negro{
+        margin:0;
+    }
+    .circle{
+        position: relative;
+        left: 50px;
+    }
+    .copy{
+        position: relative;
+        top: 30px;
+        font-size: 0.8em;
+        
+    }
+
 
 
 }
 
 
 @media only screen and (max-width: 780px) {
-      nav{
-    margin:0;
+    nav{
+        margin:0;
     }
-.navbar-default {
-    background:rgba(54, 125, 213, 0.7); 
-    border:grey;
-    font-size: 1.2em;
+    .navbar-default {
+        background:rgba(95,95,95,0.87); 
+        border:grey;
+        font-size: 1.2em;
     }
      .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    background-color:rgba(122, 122, 122, 0.83);
+        color: white;
+        background-color:rgba(54, 125, 213, 0.7);
+    }
+    .container ,.container-fluid{
+        width:100%;
+    }
+    .fondo{
+        height: 500px;
+        width:100%;
+    }
+    .opaco{
+        height: 500px;
+        width: 100%;
+    }
+    .titulo{
+       position:relative;
+       bottom: 190px;
+       font-size: 2.4em;
+    }
+    .blue{
+        position: relative;
+        bottom: 171px;
+        width: 100%;
+    }
+     .prueba ,.prueba2{
+        font-size: 1.8em;
+        width: 270px;
+        position: relative;
+        right: 40px;
+    }
+    .obten,.obten2{
+        width: 270px;
+        position: relative;
+        right: 49px;
+        font-size: 1.2em;
+    }
+    .btn{
+        margin-bottom: 20px;
+        margin-left: 4px;
     }
 
-    
+    #servicios{
+        margin-top: 20px;
+    }
+    .raya{
+        margin-top: 550px;
+
+    }
+    .ejemplo{
+        font-size:2.3em;
+        margin: 0;
+    }
+    .logo2{
+        height: 30px;
+        width: 180px;
+    }
+    img[src="image/flecha.png"]{
+        display: none;
+    }
+    iframe{
+        width: 100%;
+    }
+    .glasses{
+        display: none;
+    }
+    .want li{
+        line-height: 1.8;
+    }
+    .persona{
+        display: none;
+    }
+    .blanco{
+        position: relative;
+        bottom: 70px;
+        height: 450px;
+    }
+   .blanco li{
+        line-height: 1.8;
+   }
+     .blue2{
+        height: 185px;
+        width: 100%;
+    }
+    .prueba2{
+        font-size: 1.8em;
+        width: 270px;
+        position: relative;
+        right: 40px;
+    }
+     .btn2{
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+    .negro{
+        margin:0;
+    }
+    .circle{
+        position: relative;
+        left: 50px;
+    }
+    .copy{
+        position: relative;
+        top: 30px;
+        font-size: 0.8em;
+        
+    }
 
   }
 
 @media only screen and (max-width: 990px) {
-      nav{
-    margin:0;
+   nav{
+        margin:0;
     }
-.navbar-default {
-    background:rgba(54, 125, 213, 0.7); 
-    border:grey;
-    font-size: 1.2em;
+    .navbar-default {
+        background:rgba(95,95,95,0.87); 
+        border:grey;
+        font-size: 1.2em;
     }
      .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    background-color:rgba(122, 122, 122, 0.83);
+        color: white;
+        background-color:rgba(54, 125, 213, 0.7);
+    }
+    .container ,.container-fluid{
+        width:100%;
     }
 
+
 }
+

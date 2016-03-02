@@ -1,0 +1,75 @@
+@media only screen and (max-width: 480px) {
+    
+    nav{
+    margin:0;
+    }
+    .navbar-default {
+    background:rgba(95,95,95,0.87); 
+    border:grey;
+    font-size: 1.2em;
+    }
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color:rgba(72,72,72,0.57);
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 780px) {
+      nav{
+    margin:0;
+    }
+.navbar-default {
+    background:rgba(95,95,95,0.87); 
+    border:grey;
+    font-size: 1.2em;
+    }
+     .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color:rgba(54, 125, 213, 0.7);
+    }
+    .fondo{
+    background-image: url("../image/large.jpg");
+    height: 455px;
+    background-repeat: none;
+    background-position:40% 0%; 
+    background-size:cover;
+    }
+    .opaco{
+    background:rgba(38, 38, 38, 0.50);
+    height: 455px;
+    }
+    .titulo{
+       position:relative;
+       bottom: 140px;
+       font-size: 2.6em;
+    }
+    .blue{
+        position: relative;
+        bottom: 25px;
+    }
+    #servicios{
+        margin-top: 200px;
+    }
+    
+
+  }
+
+@media only screen and (max-width: 990px) {
+      nav{
+    margin:0;
+    }
+.navbar-default {
+    background:rgba(95,95,95,0.87); 
+    border:grey;
+    font-size: 1.2em;
+    }
+     .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color:rgba(54, 125, 213, 0.7);
+    }
+
+}
